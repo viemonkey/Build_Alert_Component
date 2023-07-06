@@ -1,9 +1,7 @@
-import Welcome from './components/Welcome';
+import AddComponent from './components/AddComponent';
 function App() {
     return (
-        <div className="App">
-            <Welcome name="Viee" />
-        </div>
+        <AddComponent firstNumber={3} secondNumber={2} />
     );
 }
 export default App;
