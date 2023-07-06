@@ -3,7 +3,7 @@ import AlertComponent from './components/Alert_Component';
 
 function App() {
     return (
-        <AlertComponent text="dcmm viet AK"/>
+        <AlertComponent text="Build Alert Component"/>
     )
 }
 export default App;
