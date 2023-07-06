@@ -1,9 +1,9 @@
-import AddComponent from './components/AddComponent';
+import AddComponent from './components/Alert_Component';
+import AlertComponent from './components/Alert_Component';
+
 function App() {
     return (
-        <>
-        <AddComponent firstNumber={1} secondNumber={2} />
-        </>
-    );
+        <AlertComponent text="dcmm viet AK"/>
+    )
 }
 export default App;
